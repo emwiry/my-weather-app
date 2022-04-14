@@ -52,6 +52,11 @@
   padding-right: 64px;
 }
 
+.open-source-link {
+  text-align: center;
+  color: black;
+}
+
 ::placeholder {
   color: white;
   padding: 97px;
@@ -114,6 +119,10 @@
   font-size: 17px;
   font-weight: bold;
   left: 10px;
+}
+
+#link {
+  color: #65a8dc;
 }
 
 h1,
