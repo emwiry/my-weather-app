@@ -15,6 +15,97 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
+    <div class="container">
+      <div class="weather-app">
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            autofocus="on"
+            autocomplete="off"
+            id="search-text-input"
+          />
+
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary btn-sm"
+              type="submit"
+              value="Search"
+              id="search-button"
+            >
+              Search
+            </button>
+            <button
+              class="btn btn-primary btn-sm"
+              type="submit"
+              value="Search"
+              id="current-button"
+            >
+              Current
+            </button>
+          </div>
+        </form>
+        <h1>
+          <div class="row">
+            <div class="col">
+              <img src="src/partly-cloudy.jpg" class="w-icon float-left" />
+              <span id="city-name">Orem, UT</span>
+              <div class="col" id="temps">12<span id="units">℃</span></div>
+            </div>
+          </div>
+        </h1>
+        <h2>
+          <p>
+            <span id="description">Partly Cloudy</span>
+            <br />
+            <span id="date">Monday Mar 14, 2022</span>
+          </p>
+        </h2>
+        <h3>
+          <div>
+            <ul>
+              <li>Precipitation: <span class="prec">0%</span></li>
+              <li>Humidity: <span class="hum">46%</span></li>
+              <li>Wind: <span class="wind">6 mph</span></li>
+            </ul>
+          </div>
+        </h3>
+        <h4>
+          <div class="row">
+            <div class="col1">
+              <span class="border1 py-2 rounded-pill">
+                Tue <img src="src/partly-cloudy.jpg" /> 56°F
+                <span class="temp">38°F</span>
+              </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col2">
+              <span class="border2 py-2 rounded-pill"
+                >Wed <img src="src/s-showers.jpg" /> 47°F
+                <span class="temp">28°F</span></span
+              >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col3">
+              <span class="border3 py-2 rounded-pill"
+                >Thu <img src="src/partly-cloudy.jpg" /> 47°F
+                <span class="temp">30°F</span></span
+              >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col4">
+              <span class="border4 py-2 rounded-pill"
+                >Fri <img src="src/partly-cloudy.jpg" /> 53°F
+                <span class="temp">34°F</span></span
+              >
+            </div>
+          </div>
+        </h4>
+      </div>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
