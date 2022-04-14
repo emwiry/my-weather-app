@@ -1,0 +1,145 @@
+.weather-app {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 20px;
+}
+
+.d-grid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.w-icon {
+  height: 110px;
+  position: left;
+}
+
+.prec,
+.hum,
+.wind {
+  font-weight: normal;
+}
+
+.col1,
+.col2,
+.col3,
+.col4 {
+  padding: 10px;
+}
+
+.border1,
+.border3 {
+  background-color: #fdfacf;
+  font-weight: bold;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.border2 {
+  background-color: #fdfacf;
+  font-weight: bold;
+  padding-left: 54px;
+  padding-right: 54px;
+}
+
+.border4 {
+  background-color: #fdfacf;
+  font-weight: bold;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+::placeholder {
+  color: white;
+  padding: 97px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+#city-name {
+  position: right;
+  font-size: 38px;
+}
+
+#search-text-input {
+  background-color: #65a8dc;
+  border: 5px solid #65a8dc;
+  border-color: transparent;
+  border-radius: 25px;
+  color: #fff;
+  display: block;
+  margin: auto;
+  outline: none;
+  width: 300px;
+}
+
+#search-button {
+  position: relative;
+  right: 20px;
+  background-color: #65a8dc;
+  border-color: transparent;
+  border-radius: 20px;
+  outline: none;
+  padding: 5px 20px;
+  text-align: center;
+  width: 100px;
+}
+
+#current-button {
+  position: relative;
+  left: 20px;
+  background-color: #65a8dc;
+  border-color: transparent;
+  border-radius: 20px;
+  outline: none;
+  padding: 5px 20px;
+  text-align: center;
+  width: 100px;
+}
+
+#temps {
+  position: relative;
+  bottom: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  left: 64px;
+}
+
+#units {
+  position: relative;
+  bottom: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  left: 10px;
+}
+
+h1,
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  position: relative;
+  bottom: 25px;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+li {
+  position: relative;
+  bottom: 18px;
+  right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+}
+
+h4 {
+  margin: auto;
+  text-align: center;
+}
